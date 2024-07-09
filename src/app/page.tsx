@@ -1,11 +1,10 @@
 import BgLayer from "@/components/layout/bg-layer";
-import HostedSolutions from "@/components/hosted-solutions";
 import Image from "next/image";
 import Link from "next/link";
 import MainWrapper from "@/components/layout/main-wrapper";
 import appScreenshot from "../../public/app-screenshot.png";
 
-export default function Homepage() {
+export default async function Homepage() {
   return (
     <div className="">
       <MainWrapper>

@@ -1,6 +1,6 @@
 import { getContentfulManagement } from "@/lib/get-contentful";
 
-async function batchHelper() {
+export async function batchHelper() {
   // Connect to the Contentful Management API
   const client = getContentfulManagement();
 
