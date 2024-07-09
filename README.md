@@ -1,4 +1,4 @@
-# Samvera Static Site Template (featuring Hyku)
+# Avalon Static Site
 
 This repo is a [Next.js](https://nextjs.org/) static site project providing information about the Hyku application and ecosystem. It will be a static site that will be deployed on Github Pages.
 
