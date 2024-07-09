@@ -13,8 +13,8 @@ const openSans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Hyku",
-    default: "Hyku",
+    template: "%s | Avalon",
+    default: "Avalon",
   },
   description:
     "The Next Generation Repository Solution - A Samvera Application",

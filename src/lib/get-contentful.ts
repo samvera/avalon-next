@@ -11,7 +11,7 @@ function getContentful() {
   if (!client) {
     client = createClient({
       accessToken: process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN as string,
-      environment: "hyku" as string,
+      environment: "avalon" as string,
       space: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID as string,
     });
   }
@@ -30,8 +30,8 @@ function getContentfulManagement() {
         type: "plain",
         defaults: {
           spaceId: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID as string,
-          // We are only managing the "hyku" environment with this client
-          environmentId: "hyku",
+          // We are only managing the "avalon" environment with this client
+          environmentId: "avalon",
         },
       },
     );
