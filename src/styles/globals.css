@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-foreground: 221 39% 11%; /* gray-900 */
+    --color-foreground-muted: 215 14% 34%; /* gray-600 */
+    --color-background: 0 0% 100%; /* white */
+    --color-primary: 101 61% 43%; /* Hyku logo green */
+  }
+  .dark {
+    --color-foreground: 220 14% 96%; /* gray-100 */
+    --color-foreground-muted: 218 11% 65%; /* gray-400 */
+    --color-background: 224 71% 4%; /* gray-900 */
+  }
+
+  h1 {
+    /* @apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl; */
+    @apply text-4xl font-bold tracking-tight  sm:text-6xl;
+  }
+
+  h2 {
+    @apply scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0;
+  }
+
+  h3 {
+    @apply scroll-m-20 text-2xl font-semibold tracking-tight;
+  }
+
+  h4 {
+    @apply scroll-m-20 text-xl font-semibold tracking-tight;
+  }
+
+  p {
+    @apply leading-7 [&:not(:first-child)]:mt-6;
+  }
+
+  blockquote {
+    @apply mt-6 border-l-2 pl-6 italic;
+  }
+
+  ul {
+    @apply my-6 ml-6 list-disc [&>li]:mt-2;
+  }
+
+  dl p,
+  dl ul {
+    @apply [&:not(:first-child)]:mt-4 leading-7 !important;
+  }
+
+  dt {
+    @apply font-semibold pb-1 [&:not(:first-child)]:mt-6;
+  }
+
+  dd {
+    @apply pl-2;
+  }
+
+  code {
+    @apply relative rounded bg-gray-200 dark:bg-gray-800 px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold;
+  }
+
+  main a {
+    @apply font-semibold underline hover:no-underline;
+  }
+
+  .lead {
+    @apply text-xl text-gray-600 dark:text-gray-400;
+  }
+
+  .button {
+    @apply no-underline rounded-md bg-gray-200 dark:bg-gray-800 px-3.5 py-2.5 text-sm font-semibold text-foreground shadow-sm hover:bg-gray-200/90 dark:hover:bg-gray-800/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary;
+  }
+
+  .button-primary {
+    /** Apply .button styles and then add some more */
+    @apply button bg-primary hover:bg-primary/90 text-white;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
