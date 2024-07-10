@@ -1,7 +1,6 @@
 import BgLayer from "@/components/layout/bg-layer";
 import ContactCard from "@/components/contact/card";
 import Container from "@/components/layout/container";
-import Header from "@/components/layout/header";
 import MainWrapper from "@/components/layout/main-wrapper";
 import { Metadata } from "next";
 
@@ -42,7 +41,6 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <div className="">
-      <Header />
       <MainWrapper>
         <BgLayer>
           <Container>

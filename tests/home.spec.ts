@@ -2,6 +2,8 @@ import { expect, test } from "@playwright/test";
 
 test("homepage elements", async ({ page }) => {
   await page.goto("/");
+  await page.waitForURL("**/");
+
   await expect(page.getByRole("heading")).toContainText(
     "The Next Generation Repository Solution",
   );
