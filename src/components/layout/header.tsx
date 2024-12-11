@@ -6,7 +6,7 @@ import React, { useEffect } from "react";
 
 import Image from "next/image";
 import Link from "next/link";
-import hykuLogo from "../../../public/logo-hyku.png";
+import hykuLogo from "../../../public/AvalonMediaSystem_Logo_RGB_Large.png";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 

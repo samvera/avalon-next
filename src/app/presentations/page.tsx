@@ -26,7 +26,7 @@ export default function PresentationsPage() {
                 rel="noreferrer noopener"
                 className="button-primary"
               >
-                Hyku YouTube Channel
+                Demo
               </a>
               <a
                 href="https://www.youtube.com/channel/UC1eopKtm-k_f93RTfzHSvMQ"

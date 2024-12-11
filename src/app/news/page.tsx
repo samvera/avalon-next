@@ -17,7 +17,7 @@ export default function Homepage() {
         <BgLayer>
           <PageHeader
             title="News and Events"
-            description="Keep up with the latest news and events in the Hyku ecosystem"
+            description="Keep up with the latest Avalon news and events"
           />
           <Container>
             <NewsList />

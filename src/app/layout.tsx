@@ -13,11 +13,11 @@ const openSans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Avalon",
-    default: "Avalon",
+    template: "%s | Avalon Media System",
+    default: "Avalon Media System",
   },
   description:
-    "The Next Generation Repository Solution - A Samvera Application",
+    "The Audio and Moving Image Repository Solution - Avalon Media System",
 };
 
 export default function RootLayout({

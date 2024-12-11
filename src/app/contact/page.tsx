@@ -7,10 +7,10 @@ import { Metadata } from "next";
 const contactCards = [
   {
     description:
-      "An open and welcoming forum to find out what is in development for Hyku and to connect with users with similar needs.",
-    label: "Call Information",
-    title: "Hyku Interest Group",
-    url: "https://samvera.atlassian.net/wiki/spaces/samvera/pages/419533203/Samvera+Hyku+Interest+Group",
+      "A community group that meets monthly to talk Avalon and all things AV in the world of libraries and archives. Agenda topics are sourced from the community, and all potential and current Avalon users are invited to attend.",
+    label: "Call Info and Meeting Notes",
+    title: "Avalon User Roundtable",
+    url: "https://samvera.atlassian.net/wiki/spaces/AVALON/pages/1957954091/Avalon+User+Roundtable"
   },
   {
     description: "Have a PR to contribute?",
@@ -19,16 +19,16 @@ const contactCards = [
   },
   {
     description:
-      "Request to join Samvera's slack workspace and join the #hyku channel. Introduce yourself and ask questions!",
+      "Request to join Samvera's slack workspace and join the #avalon channel. Questions welcome!",
     email: "",
-    label: "Slack Information",
+    label: "Sign Up for Samvera Slack",
     title: "Samvera Slack",
-    url: "https://samvera.atlassian.net/wiki/spaces/samvera/pages/405211682/Getting+Started+in+the+Samvera+Community#Join-the-Samvera-Slack-workspace",
+    url: "https://forms.gle/oeLBwbQw9QoCZWTL6",
   },
   {
     description:
       "Email Us with questions, requests for demos, and other communications.",
-    email: "info@samvera.org",
+    email: "avalon@iu.edu",
     title: "Email",
   },
 ];
@@ -53,10 +53,7 @@ export default function ContactPage() {
                         Get in touch
                       </h2>
                       <p className="mt-4 leading-7 text-foreground-muted">
-                        As part of the Samvera Community, Hyku is driven by the
-                        participation of users and developers. There are many
-                        ways to contribute, collaborate, or just get some
-                        questions answered as you get started with Hyku.
+                      Developing a sustainable open source software project depends on the strength of the community. We hope you'll consider joining our listserv, chatting on Slack, or checking out our code on Github.
                       </p>
                     </div>
                     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">

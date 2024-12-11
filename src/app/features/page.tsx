@@ -17,12 +17,12 @@ export default async function FeaturesPage() {
         <BgLayer>
           <PageHeader
             title="Features and Implementations"
-            description="Hyku began as the Hydra-in-a-Box project. Based on Hyrax, it offers an easy-to-install, easy-to-configure, feature-rich solution supporting next-generation web technologies. Hyku reduces barriers to effective asset management and preservation for collections and content types of many kinds, and is supported by a vibrant and ever-growing open source community."
+            description="Avalon offers an easy-to-install, easy-to-configure, feature-rich application for presenting and managing AV resources."
           />
           <Container>
             <h2>Features</h2>
             <p>
-              Building on Hyrax, Hyku has a long list of features and
+              Avalon has a long list of features and
               distinctions, including:
             </p>
             <FeatureList />
