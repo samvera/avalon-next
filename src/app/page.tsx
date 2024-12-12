@@ -16,9 +16,9 @@ export default async function Homepage() {
                   Avalon Media System
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-foreground-muted">
-                  Avalon Media System is an open source platform for 
-                   managing and providing access to large 
-                  collections of digital audio and moving image content.
+                  Avalon Media System is an open source platform for managing
+                  and providing access to large collections of digital audio and
+                  moving image content.
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <Link href="/getting-started" className="button-primary">

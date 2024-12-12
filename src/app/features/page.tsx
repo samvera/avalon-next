@@ -22,8 +22,7 @@ export default async function FeaturesPage() {
           <Container>
             <h2>Features</h2>
             <p>
-              Avalon has a long list of features and
-              distinctions, including:
+              Avalon has a long list of features and distinctions, including:
             </p>
             <FeatureList />
             <section className="space-y-6">

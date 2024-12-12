@@ -10,7 +10,7 @@ const contactCards = [
       "A community group that meets monthly to talk Avalon and all things AV in the world of libraries and archives. Agenda topics are sourced from the community, and all potential and current Avalon users are invited to attend.",
     label: "Call Info and Meeting Notes",
     title: "Avalon User Roundtable",
-    url: "https://samvera.atlassian.net/wiki/spaces/AVALON/pages/1957954091/Avalon+User+Roundtable"
+    url: "https://samvera.atlassian.net/wiki/spaces/AVALON/pages/1957954091/Avalon+User+Roundtable",
   },
   {
     description: "Have a PR to contribute?",
@@ -53,7 +53,10 @@ export default function ContactPage() {
                         Get in touch
                       </h2>
                       <p className="mt-4 leading-7 text-foreground-muted">
-                      Developing a sustainable open source software project depends on the strength of the community. We hope you'll consider joining our listserv, chatting on Slack, or checking out our code on Github.
+                        Developing a sustainable open source software project
+                        depends on the strength of the community. We hope you'll
+                        consider joining our listserv, chatting on Slack, or
+                        checking out our code on Github.
                       </p>
                     </div>
                     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
