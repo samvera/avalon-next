@@ -23,7 +23,6 @@ export default function GettingStartedPage() {
           <Container>
             <div className="space-y-16">
               <GettingStartedList />
-              <HostedSolutions />
               <section className="mt-16 sm:mt-20 lg:mt-24">
                 <h2>F.A.Q. Frequently Asked Questions</h2>
                 <FaqList />
