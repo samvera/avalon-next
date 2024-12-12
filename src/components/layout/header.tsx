@@ -109,7 +109,11 @@ const Header = () => {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Avalon Media System</span>
-              <Image src={avalonLogo} alt="Avalon logo" className="h-8 w-auto" />
+              <Image
+                src={avalonLogo}
+                alt="Avalon logo"
+                className="h-8 w-auto"
+              />
             </a>
             <button
               type="button"

@@ -26,7 +26,6 @@ const socials = [
     href: "https://github.com/avalonmediasystem/avalon",
     icon: GitHub,
   },
-
 ];
 
 export default function Footer() {
@@ -67,7 +66,8 @@ export default function Footer() {
           ))}
         </div>
         <p className="mt-10 text-center text-xs leading-5 text-foreground-muted">
-          &copy; {new Date().getFullYear()} Avalon Media System. All rights reserved.
+          &copy; {new Date().getFullYear()} Avalon Media System. All rights
+          reserved.
         </p>
       </div>
     </footer>

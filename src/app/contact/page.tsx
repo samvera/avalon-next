@@ -10,7 +10,7 @@ const contactCards = [
       "Email us with questions, requests for demos, and other communications.",
     email: "avalon@iu.edu",
     title: "Email",
-  }, 
+  },
   {
     description:
       "Request to join Samvera's slack workspace and join the public #avalon channel. Questions welcome!",
@@ -27,14 +27,14 @@ const contactCards = [
     url: "https://samvera.atlassian.net/wiki/spaces/AVALON/pages/1957954091/Avalon+User+Roundtable",
   },
   {
-    description: "All Avalon code is open source and development is tracked in Github.",
+    description:
+      "All Avalon code is open source and development is tracked in Github.",
     title: "Developers",
     label: "Avalon on Github",
     url: "https://github.com/avalonmediasystem/avalon",
   },
-   {
-    description:
-      "The mailing list for project announcements and discussion.",
+  {
+    description: "The mailing list for project announcements and discussion.",
     email: "avalon-discuss-l@list.indiana.edu",
     title: "Mailing List",
   },
@@ -60,7 +60,10 @@ export default function ContactPage() {
                         Get in touch
                       </h2>
                       <p className="mt-4 leading-7 text-foreground-muted">
-                         primary mailing list for announcements about upcoming developments, new releases, meeting and other important milestones during the development of Avalon Media System.
+                        primary mailing list for announcements about upcoming
+                        developments, new releases, meeting and other important
+                        milestones during the development of Avalon Media
+                        System.
                       </p>
                     </div>
                     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
