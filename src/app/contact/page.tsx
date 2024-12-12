@@ -35,7 +35,7 @@ const contactCards = [
   },
   {
     description: "The mailing list for project announcements and discussion.",
-    email: "avalon-discuss-l@list.indiana.edu",
+    email: "avalon-l@list.indiana.edu",
     title: "Mailing List",
   },
 ];
@@ -60,10 +60,7 @@ export default function ContactPage() {
                         Get in touch
                       </h2>
                       <p className="mt-4 leading-7 text-foreground-muted">
-                        primary mailing list for announcements about upcoming
-                        developments, new releases, meeting and other important
-                        milestones during the development of Avalon Media
-                        System.
+                        Connect with us via email, Slack, Github and more.
                       </p>
                     </div>
                     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
