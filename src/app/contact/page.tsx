@@ -7,19 +7,13 @@ import { Metadata } from "next";
 const contactCards = [
   {
     description:
-      "A community group that meets monthly to talk Avalon and all things AV in the world of libraries and archives. Agenda topics are sourced from the community, and all potential and current Avalon users are invited to attend.",
-    label: "Call Info and Meeting Notes",
-    title: "Avalon User Roundtable",
-    url: "https://samvera.atlassian.net/wiki/spaces/AVALON/pages/1957954091/Avalon+User+Roundtable",
-  },
-  {
-    description: "Have a PR to contribute?",
-    title: "Developers",
-    url: "https://github.com/samvera/hyku",
-  },
+      "Email us with questions, requests for demos, and other communications.",
+    email: "avalon@iu.edu",
+    title: "Email",
+  }, 
   {
     description:
-      "Request to join Samvera's slack workspace and join the #avalon channel. Questions welcome!",
+      "Request to join Samvera's slack workspace and join the public #avalon channel. Questions welcome!",
     email: "",
     label: "Sign Up for Samvera Slack",
     title: "Samvera Slack",
@@ -27,15 +21,28 @@ const contactCards = [
   },
   {
     description:
-      "Email Us with questions, requests for demos, and other communications.",
-    email: "avalon@iu.edu",
-    title: "Email",
+      "A community group that meets monthly to talk Avalon and all things AV in the world of libraries and archives. Agenda topics are sourced from the community and all potential and current Avalon users are invited to attend.",
+    label: "Call Info and Meeting Notes",
+    title: "Avalon User Roundtable",
+    url: "https://samvera.atlassian.net/wiki/spaces/AVALON/pages/1957954091/Avalon+User+Roundtable",
+  },
+  {
+    description: "All Avalon code is open source and development is tracked in Github.",
+    title: "Developers",
+    label: "Avalon on Github",
+    url: "https://github.com/avalonmediasystem/avalon",
+  },
+   {
+    description:
+      "The mailing list for project announcements and discussion.",
+    email: "avalon-discuss-l@list.indiana.edu",
+    title: "Mailing List",
   },
 ];
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Contact the Hyku team",
+  description: "Contact the Avalon team",
 };
 
 export default function ContactPage() {
@@ -53,10 +60,7 @@ export default function ContactPage() {
                         Get in touch
                       </h2>
                       <p className="mt-4 leading-7 text-foreground-muted">
-                        Developing a sustainable open source software project
-                        depends on the strength of the community. We hope you'll
-                        consider joining our listserv, chatting on Slack, or
-                        checking out our code on Github.
+                         primary mailing list for announcements about upcoming developments, new releases, meeting and other important milestones during the development of Avalon Media System.
                       </p>
                     </div>
                     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">

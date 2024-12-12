@@ -6,7 +6,7 @@ import React, { useEffect } from "react";
 
 import Image from "next/image";
 import Link from "next/link";
-import hykuLogo from "../../../public/AvalonMediaSystem_Logo_RGB_Large.png";
+import avalonLogo from "../../../public/AvalonMediaSystem_Logo_RGB_Large.png";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
@@ -57,8 +57,8 @@ const Header = () => {
       >
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Hyku</span>
-            <Image src={hykuLogo} alt="Hyku logo" className="h-8 w-auto" />
+            <span className="sr-only">Avalon</span>
+            <Image src={avalonLogo} alt="Avalon logo" className="h-8 w-auto" />
           </Link>
         </div>
 
@@ -108,8 +108,8 @@ const Header = () => {
         <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-background px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <Image src={hykuLogo} alt="Hyku logo" className="h-8 w-auto" />
+              <span className="sr-only">Avalon Media System</span>
+              <Image src={avalonLogo} alt="Avalon logo" className="h-8 w-auto" />
             </a>
             <button
               type="button"
@@ -135,7 +135,7 @@ const Header = () => {
               </div>
               <div className="py-6">
                 <a
-                  href="https://github.com/samvera/hyku"
+                  href="https://samvera.atlassian.net/wiki/spaces/avalon/overview"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-foreground hover:bg-foreground/5"

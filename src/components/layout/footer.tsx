@@ -10,7 +10,7 @@ const navigationExtended = [
   ...navigation,
   {
     name: "Learn More",
-    href: "https://github.com/samvera/hyku",
+    href: "https://samvera.atlassian.net/wiki/spaces/avalon/overview",
     isExternal: true,
   },
 ];
@@ -18,19 +18,15 @@ const navigationExtended = [
 const socials = [
   {
     name: "X",
-    href: "http://twitter.com/HykuRepo",
+    href: "http://twitter.com/avalonmediasys",
     icon: Twitter,
   },
   {
     name: "GitHub",
-    href: "https://github.com/samvera/hyku",
+    href: "https://github.com/avalonmediasystem/avalon",
     icon: GitHub,
   },
-  {
-    name: "YouTube",
-    href: "https://www.youtube.com/channel/UC_m1Ovaaasa2ksyGaqz5i0Q",
-    icon: Youtube,
-  },
+
 ];
 
 export default function Footer() {
@@ -71,7 +67,7 @@ export default function Footer() {
           ))}
         </div>
         <p className="mt-10 text-center text-xs leading-5 text-foreground-muted">
-          &copy; {new Date().getFullYear()} Hyku. All rights reserved.
+          &copy; {new Date().getFullYear()} Avalon Media System. All rights reserved.
         </p>
       </div>
     </footer>

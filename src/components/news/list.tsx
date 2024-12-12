@@ -63,7 +63,7 @@ export default function NewsList() {
                         </span>
                       </p>
                       <p className="text-foreground-muted !mt-0">
-                        Hyku Administrator
+                        Avalon Administrator
                       </p>
                     </div>
                   </div>
