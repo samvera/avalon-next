@@ -18,15 +18,15 @@ export default async function Homepage() {
                 <p className="mt-6 text-lg leading-8 text-foreground-muted">
                   Avalon Media System is an open source platform for managing
                   and providing access to large collections of digital audio and
-                  moving image content. The project is led by the libraries of Indiana 	
-			University Bloomington.
+                  moving image content. The project is led by the libraries of
+                  Indiana University Bloomington.
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <Link href="/getting-started" className="button-primary">
                     Get started
                   </Link>
                   <a
-                    href="https://github.com/samvera/hyku"
+                    href="https://samvera.atlassian.net/wiki/spaces/avalon/overview"
                     className="text-sm font-semibold leading-6 text-foreground no-underline"
                     target="_blank"
                     rel="noopener noreferrer"
