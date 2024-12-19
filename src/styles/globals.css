@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: "Museo\\ Slab";
+    font-weight: 500;
+    src: url(/fonts/museoslab-500.otf) format("otf");
+  }
+
   :root {
     --color-foreground: 221 39% 11%; /* gray-900 */
     --color-foreground-muted: 215 14% 34%; /* gray-600 */
@@ -18,10 +24,18 @@
   h1 {
     /* @apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl; */
     @apply text-4xl font-bold tracking-tight  sm:text-6xl;
+    font-family:
+      Museo Slab,
+      system-ui,
+      sans-serif;
   }
 
   h2 {
     @apply scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0;
+    font-family:
+      Museo Slab,
+      system-ui,
+      sans-serif;
   }
 
   h3 {
@@ -33,7 +47,8 @@
   }
 
   p {
-    @apply leading-7 [&:not(:first-child)]:mt-6;
+    @apply leading-7 [&:not(:first-child)]:mt-6 text-base;
+    font-family: Arial, system-ui, sans-serif;
   }
 
   blockquote {

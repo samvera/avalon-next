@@ -27,50 +27,91 @@ export default async function FeaturesPage() {
             <FeatureList />
             <section className="space-y-6">
               <div>
-                <h3>Hyku 5.0</h3>
+                <h3>Easy Transcoding</h3>
                 <p>
-                  Hyku 5.0 was released in February 2023, offering the ability
-                  to use Solr graph queries to skip having to do nested
-                  indexing. Features include Groups with Roles and the ability
-                  to implement Google or Motomo analytics.
+                  Avalon takes the guesswork out of processing media for the
+                  web.
                 </p>
               </div>
               <div>
-                <h3>Hyku 4.0</h3>
+                <h3>Powerful Access Control</h3>
                 <p>
-                  Hyku 4.0 was released in May 2022, offering several major new
-                  features including cross-tenant search, three new UI theming
-                  templates that can be implemented from the Admin appearance
-                  dashboard, the ability to make tenants private, to feature
-                  collections, and to support multiple domains per tenant.
+                  Avalon integrates with your authentication platform and
+                  provides the ability to manage access for staff and patrons.
                 </p>
               </div>
               <div>
-                <h3>Hyku 3.0</h3>
+                <h3>User Management</h3>
                 <p>
-                  Hyku 3.0 was released in early 2021, bringing Hyku up to speed
-                  with Hyrax, and introducing new theming and other
-                  configurations.
+                  Create local users or system groups, manage access using
+                  directory group membership, and more.
                 </p>
               </div>
               <div>
-                <h3>Hyku Beta 2.0.0</h3>
-                <p>
-                  Hyku Beta 2.0.0 was released in October 2018 and Hyku was
-                  promoted out of Samvera Labs in February 2019. Information
-                  about the initial Beta Test can be found below and user
-                  documentation is being added to this site regularly.
-                </p>
+                <h3>Collections Management</h3>
+                <p>Avalon provides many ways to update and evaluate items.</p>
               </div>
-              <p>
-                Visit the Hyku YouTube Channel for feature demos and the latest
-                updates.
-              </p>
+              <p>Visit the Avalon wiki for more information.</p>
             </section>
 
             <section className="pt-20">
               <h2 className="mb-10">Implementations</h2>
-              <Implementations />
+              <p>
+                The insitutions listed below are active Avalon users and links
+                to their institutional instances are provided when available.
+                Please contact us if your institution is using Avalon and would
+                like to be listed here.
+              </p>
+              <ul dir="ltr">
+                <li>
+                  <a href="https://avalon.bgsu.edu/">
+                    Bowling Green State University
+                  </a>
+                </li>
+                <li>
+                  <a href="https://avreserves.libraries.emory.edu/">
+                    Emory University
+                  </a>
+                </li>
+                <li>
+                  Fenway Libraries Online (for New England Conservatory of
+                  Music)
+                </li>
+                <li>
+                  <a href="https://media.dlib.indiana.edu/">
+                    Indiana University
+                  </a>
+                </li>
+                <li>Musician's Institute, LA</li>
+                <li>
+                  <a href="http://media.northwestern.edu">
+                    Northwestern University
+                  </a>
+                </li>
+                <li>Oberlin College</li>
+                <li>
+                  <a href="https://avalon.library.tamu.edu/">
+                    Texas A&amp;M University
+                  </a>
+                </li>
+                <li>
+                  <a href="https://avalon-streaming.library.ucla.edu/">UCLA</a>
+                </li>
+                <li>
+                  <a href="https://av.lib.uh.edu">University of Houston</a>
+                </li>
+                <li>University of Louisville</li>
+                <li>
+                  <a href="https://av.lib.umd.edu/">University of Maryland</a>
+                </li>
+                <li>
+                  <a href="https://avalon.lib.virginia.edu/">
+                    University of Virginia
+                  </a>
+                </li>
+                <li>GBH</li>
+              </ul>
+              {/* <Implementations /> */}
             </section>
           </Container>
         </BgLayer>
