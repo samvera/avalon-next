@@ -7,7 +7,7 @@ import { Metadata } from "next";
 const contactCards = [
   {
     description:
-      "Email us with questions, requests for demos, and other communications.",
+      "Email the Avalon team directly to request editor access to the demo site, ask questions about the software, or discuss whether Avalon Media System might meet your needs.",
     email: "avalon@iu.edu",
     title: "Email",
   },
@@ -35,7 +35,7 @@ const contactCards = [
   },
   {
     description: "The mailing list for project announcements and discussion.",
-    email: "avalon-l@list.indiana.edu",
+    email: "avalon-l@list.iu.edu",
     title: "Mailing List",
   },
 ];
