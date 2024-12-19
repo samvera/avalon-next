@@ -17,24 +17,16 @@ export default function PresentationsPage() {
         <BgLayer>
           <PageHeader
             title="Presentations and Demos"
-            description="In addition to the archived presentation below, useful Hyku feature demos can be found on YouTube."
+            description="Try Avalon Media System out on our demo site or check out a presentation on Avalon. More info here about signing up for an account on demo."
           >
             <div className="mt-8 flex-row space-x-4">
               <a
-                href="https://www.youtube.com/channel/UC_m1Ovaaasa2ksyGaqz5i0Q/"
+                href="https://demo.avalonmediasystem.org/"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="button-primary"
               >
-                Demo
-              </a>
-              <a
-                href="https://www.youtube.com/channel/UC1eopKtm-k_f93RTfzHSvMQ"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="button"
-              >
-                Hydra-in-a-Box (early demos)
+                Demo Site
               </a>
             </div>
           </PageHeader>
