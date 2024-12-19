@@ -34,8 +34,10 @@ const contactCards = [
     url: "https://github.com/avalonmediasystem/avalon",
   },
   {
-    description: "The mailing list for project announcements and discussion.",
-    email: "avalon-l@list.iu.edu",
+    description:
+      "Join the mailing list for project announcements and discussion.",
+    url: "https://list.iu.edu/sympa/info/avalon-l",
+    Label: "Avalon discussion list",
     title: "Mailing List",
   },
 ];
