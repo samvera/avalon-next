@@ -7,7 +7,8 @@ import PresentationsList from "@/components/presentations/list";
 
 export const metadata: Metadata = {
   title: "Presentations and Demos",
-  description: "View presentations and demos about Hyku and its ecosystem.",
+  description:
+    "View presentations about Avalon Media System and access the demo site.",
 };
 
 export default function PresentationsPage() {
@@ -29,6 +30,14 @@ export default function PresentationsPage() {
                 Demo Site
               </a>
             </div>
+            <p>
+              {" "}
+              The demo site is open for anyone to search and browse previously
+              uploaded content. To upload and edit your own content, first
+              create an account. Then{" "}
+              <a href="mailto:avalon@iu.edu">contact the Avalon team</a> to
+              request your account be given rights to edit content.
+            </p>
           </PageHeader>
           <Container>
             <PresentationsList />
