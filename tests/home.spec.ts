@@ -4,9 +4,7 @@ test("homepage elements", async ({ page }) => {
   await page.goto("/");
   await page.waitForURL("**/");
 
-  await expect(page.getByRole("heading")).toContainText(
-    "Avalon Media System",
-  );
+  await expect(page.getByRole("heading")).toContainText("Avalon Media System");
   await expect(page.getByRole("main")).toContainText(
     "Avalon Media System is an open source platform for managing and providing access to large collections of digital audio and moving image content.",
   );

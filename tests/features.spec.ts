@@ -12,9 +12,7 @@ test("Features and Implementations page returns Features", async ({ page }) => {
   await expect(page.locator("h1")).toContainText(
     "Features and Implementations",
   );
-  await expect(page.getByRole("main")).toContainText(
-    "Avalon",
-  );
+  await expect(page.getByRole("main")).toContainText("Avalon");
 
   await expect(
     page.getByRole("heading", { name: "Features", exact: true }),
@@ -30,5 +28,4 @@ test("Features and Implementations page returns Features", async ({ page }) => {
   await expect(
     page.getByRole("heading", { name: "Implementations", exact: true }),
   ).toBeVisible();
-  
 });

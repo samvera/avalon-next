@@ -61,7 +61,10 @@ test("has main heading and top level navigation", async ({
 
     await expect(
       page.getByRole("link", { name: "Learn more" }).nth(1),
-    ).toHaveAttribute("href", "https://samvera.atlassian.net/wiki/spaces/avalon/overview");
+    ).toHaveAttribute(
+      "href",
+      "https://samvera.atlassian.net/wiki/spaces/avalon/overview",
+    );
   }
 
   // Test mobile navigation
