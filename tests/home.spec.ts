@@ -5,10 +5,10 @@ test("homepage elements", async ({ page }) => {
   await page.waitForURL("**/");
 
   await expect(page.getByRole("heading")).toContainText(
-    "The Next Generation Repository Solution",
+    "Avalon Media System",
   );
   await expect(page.getByRole("main")).toContainText(
-    "Hyku is a digital repository that provides a robust and flexible platform for institutions to manage, preserve, and provide access to digital content.",
+    "Avalon Media System is an open source platform for managing and providing access to large collections of digital audio and moving image content.",
   );
 
   await page.getByRole("link", { name: "Get started" }).click();

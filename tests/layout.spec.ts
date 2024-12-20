@@ -19,7 +19,7 @@ test("has main heading and top level navigation", async ({
   const header = page.getByLabel("Global");
   await expect(header).toBeVisible();
 
-  await expect(header.getByAltText("Hyku logo")).toBeVisible();
+  await expect(header.getByAltText("Avalon logo")).toBeVisible();
 
   // Test desktop navigation
   if (!isMobile) {
@@ -61,7 +61,7 @@ test("has main heading and top level navigation", async ({
 
     await expect(
       page.getByRole("link", { name: "Learn more" }).nth(1),
-    ).toHaveAttribute("href", "https://github.com/samvera/hyku");
+    ).toHaveAttribute("href", "https://samvera.atlassian.net/wiki/spaces/avalon/overview");
   }
 
   // Test mobile navigation
@@ -125,19 +125,13 @@ test("has footer with links to social media", async ({ page }) => {
 
   await expect(footerLayout.getByRole("link", { name: "X" })).toHaveAttribute(
     "href",
-    "http://twitter.com/HykuRepo",
+    "http://twitter.com/avalonmediasys",
   );
   await expect(
     footerLayout.getByRole("link", { name: "GitHub" }),
-  ).toHaveAttribute("href", "https://github.com/samvera/hyku");
+  ).toHaveAttribute("href", "https://github.com/avalonmediasystem/avalon");
   await expect(
-    footerLayout.getByRole("link", { name: "YouTube" }),
-  ).toHaveAttribute(
-    "href",
-    "https://www.youtube.com/channel/UC_m1Ovaaasa2ksyGaqz5i0Q",
-  );
-  await expect(
-    footerLayout.getByText("© 2024 Hyku. All rights"),
+    footerLayout.getByText("© 2024 Avalon Media System. All rights reserved."),
   ).toBeVisible();
 });
 

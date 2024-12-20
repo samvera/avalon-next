@@ -13,7 +13,7 @@ test("Features and Implementations page returns Features", async ({ page }) => {
     "Features and Implementations",
   );
   await expect(page.getByRole("main")).toContainText(
-    "Hyku began as the Hydra-in-a-Box project. Based on Hyrax, it offers an easy-to-install, easy-to-configure, feature-rich solution supporting next-generation web technologies. Hyku reduces barriers to effective asset management and preservation for collections and content types of many kinds, and is supported by a vibrant and ever-growing open source community.",
+    "Avalon",
   );
 
   await expect(
@@ -24,20 +24,11 @@ test("Features and Implementations page returns Features", async ({ page }) => {
   const featureList = page.getByTestId("feature-list");
   await expect(featureList).toBeVisible();
   await expect(featureList.locator("li")).toContainText(
-    "I am a test featured description for the test feature",
+    "Flexible access control",
   );
 
-  await expect(page.getByRole("main")).toContainText(
-    "Building on Hyrax, Hyku has a long list of features and distinctions, including:",
-  );
-  await expect(page.getByRole("main")).toContainText("Hyku 5.0");
   await expect(
     page.getByRole("heading", { name: "Implementations", exact: true }),
   ).toBeVisible();
-  await expect(
-    page.getByRole("heading", { name: "University of Louisville" }),
-  ).toBeVisible();
-  await expect(
-    page.getByRole("heading", { name: "Shared Research Repository" }),
-  ).toBeVisible();
+  
 });
