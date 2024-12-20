@@ -18,7 +18,7 @@ export default function PresentationsPage() {
         <BgLayer>
           <PageHeader
             title="Presentations and Demos"
-            description="Try Avalon Media System out on our demo site or check out a presentation on Avalon. More info here about signing up for an account on demo."
+            description="Try out Avalon Media System on our demo site or view an archived presentation."
           >
             <div className="mt-8 flex-row space-x-4">
               <a
@@ -34,9 +34,11 @@ export default function PresentationsPage() {
               {" "}
               The demo site is open for anyone to search and browse previously
               uploaded content. To upload and edit your own content, first
-              create an account. Then{" "}
-              <a href="mailto:avalon@iu.edu">contact the Avalon team</a> to
-              request your account be given rights to edit content.
+              <a href="https://demo.avalonmediasystem.org/users/sign_up">
+                create an account
+              </a>
+              . Then <a href="mailto:avalon@iu.edu">contact the Avalon team</a>{" "}
+              to request your account be given rights to edit content.
             </p>
           </PageHeader>
           <Container>
