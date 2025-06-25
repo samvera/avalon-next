@@ -50,29 +50,29 @@ export default function ContactPage() {
   return (
     <div className="">
       <MainWrapper>
-          <Container>
-            <div className=" py-24 sm:py-32">
-              <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl space-y-16 divide-y divide-gray-100 dark:divide-gray-900 lg:mx-0 lg:max-w-none">
-                  <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
-                    <div>
-                      <h2 className="text-3xl font-bold tracking-tight">
-                        Get in touch
-                      </h2>
-                      <p className="mt-4 leading-7 text-foreground-muted">
-                        Connect with us via email, Slack, Github and more.
-                      </p>
-                    </div>
-                    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
-                      {contactCards.map((card, index) => (
-                        <ContactCard key={index} {...card} />
-                      ))}
-                    </div>
+        <Container>
+          <div className=" py-24 sm:py-32">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+              <div className="mx-auto max-w-2xl space-y-16 divide-y divide-gray-100 dark:divide-gray-900 lg:mx-0 lg:max-w-none">
+                <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
+                  <div>
+                    <h2 className="text-3xl font-bold tracking-tight">
+                      Get in touch
+                    </h2>
+                    <p className="mt-4 leading-7 text-foreground-muted">
+                      Connect with us via email, Slack, Github and more.
+                    </p>
+                  </div>
+                  <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
+                    {contactCards.map((card, index) => (
+                      <ContactCard key={index} {...card} />
+                    ))}
                   </div>
                 </div>
               </div>
             </div>
-          </Container>
+          </div>
+        </Container>
       </MainWrapper>
     </div>
   );

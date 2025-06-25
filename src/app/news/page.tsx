@@ -13,13 +13,13 @@ export default function Homepage() {
   return (
     <div className="">
       <MainWrapper>
-          <PageHeader
-            title="News and Events"
-            description="Keep up with the latest Avalon news and events"
-          />
-          <Container>
-            <NewsList />
-          </Container>
+        <PageHeader
+          title="News and Events"
+          description="Keep up with the latest Avalon news and events"
+        />
+        <Container>
+          <NewsList />
+        </Container>
       </MainWrapper>
     </div>
   );
