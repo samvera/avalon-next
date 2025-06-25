@@ -1,4 +1,3 @@
-import BgLayer from "@/components/layout/bg-layer";
 import Image from "next/image";
 import Link from "next/link";
 import MainWrapper from "@/components/layout/main-wrapper";
@@ -8,7 +7,6 @@ export default async function Homepage() {
   return (
     <div className="">
       <MainWrapper>
-        <BgLayer>
           <div className="pb-24 sm:py-16 lg:pb-40 animate-fade-in">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl text-center">
@@ -48,7 +46,6 @@ export default async function Homepage() {
               </div>
             </div>
           </div>
-        </BgLayer>
       </MainWrapper>
     </div>
   );

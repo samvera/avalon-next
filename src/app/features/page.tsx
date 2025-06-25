@@ -1,4 +1,3 @@
-import BgLayer from "@/components/layout/bg-layer";
 import Container from "@/components/layout/container";
 import FeatureList from "@/components/features/list";
 import Implementations from "@/components/features/implementations";
@@ -14,7 +13,6 @@ export default async function FeaturesPage() {
   return (
     <div className="">
       <MainWrapper>
-        <BgLayer>
           <PageHeader
             title="Features and Implementations"
             description="Avalon offers an easy-to-install, easy-to-configure, feature-rich application for presenting and managing AV resources."
@@ -114,7 +112,6 @@ export default async function FeaturesPage() {
               {/* <Implementations /> */}
             </section>
           </Container>
-        </BgLayer>
       </MainWrapper>
     </div>
   );

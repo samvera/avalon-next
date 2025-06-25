@@ -1,4 +1,3 @@
-import BgLayer from "@/components/layout/bg-layer";
 import Container from "@/components/layout/container";
 import MainWrapper from "@/components/layout/main-wrapper";
 import { Metadata } from "next";
@@ -15,7 +14,6 @@ export default function PresentationsPage() {
   return (
     <div className="">
       <MainWrapper>
-        <BgLayer>
           <PageHeader
             title="Presentations and Demos"
             description="Try out Avalon Media System on our demo site or view an archived presentation."
@@ -44,7 +42,6 @@ export default function PresentationsPage() {
           <Container>
             <PresentationsList />
           </Container>
-        </BgLayer>
       </MainWrapper>
     </div>
   );

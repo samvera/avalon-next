@@ -1,4 +1,3 @@
-import BgLayer from "@/components/layout/bg-layer";
 import ContactCard from "@/components/contact/card";
 import Container from "@/components/layout/container";
 import MainWrapper from "@/components/layout/main-wrapper";
@@ -51,7 +50,6 @@ export default function ContactPage() {
   return (
     <div className="">
       <MainWrapper>
-        <BgLayer>
           <Container>
             <div className=" py-24 sm:py-32">
               <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -75,7 +73,6 @@ export default function ContactPage() {
               </div>
             </div>
           </Container>
-        </BgLayer>
       </MainWrapper>
     </div>
   );

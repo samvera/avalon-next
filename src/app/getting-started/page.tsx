@@ -1,4 +1,3 @@
-import BgLayer from "@/components/layout/bg-layer";
 import Container from "@/components/layout/container";
 import FaqList from "@/components/faq";
 import GettingStartedList from "@/components/getting-started/list";
@@ -14,7 +13,6 @@ export const metadata: Metadata = {
 export default function GettingStartedPage() {
   return (
     <div className="">
-      <BgLayer>
         <MainWrapper>
           <PageHeader
             title="Getting Started"
@@ -30,7 +28,6 @@ export default function GettingStartedPage() {
             </div>
           </Container>
         </MainWrapper>
-      </BgLayer>
     </div>
   );
 }
