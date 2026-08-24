@@ -19,7 +19,7 @@ const features = [
     name: "Avalon Developers",
     description:
       "As an open source software solution, Avalon's code is freely available on Github. The ReadMe includes information on setting up your environment, deploying the application, and running the stack.",
-    href: "https://github.com/samvera/hyku?tab=readme-ov-file#readme",
+    href: "https://github.com/avalonmediasystem/avalon?tab=readme-ov-file#readme",
     icon: CodeBracketSquareIcon,
   },
   {
